@@ -11,9 +11,14 @@ will be used to check programming assignments.**
 
 This repo is also something for myself to get more practice with using GitHub and the features that it has.
 
+> [!WARNING]
+> The lifetime for this repo at the moment will only be for this semester of CECS328. After the semester, I plan on no longer having this repo public.
+
 ## Installation
 
-> [!NOTE] > `pytest` requires `Python`3.8+, `pip` comes installed with all `python` releases `3.4+`
+> [!NOTE]
+> To run pytest you need pip and Python 3.8+.
+> Pip comes installed with Python 3.4+.
 
 Install pytest:
 
