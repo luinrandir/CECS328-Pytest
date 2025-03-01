@@ -90,48 +90,35 @@ These are not necessary, but they are helpful.
 
 ## FAQs
 
-### Why is Pytest running all of my test files?
+**Q: Why is Pytest running all of my test files?**
 
----
-
-If you simply run the pytest command, pytest will run all test files in the current directory and any sub-directories. If you want to only run the pytest file for the
+A: If you simply run the pytest command, pytest will run all test files in the current directory and any sub-directories. If you want to only run the pytest file for the
 programming assignment that you are working on, make sure that you have both the test file and assignment file in a separate directory. Then run pytest in that directory
 to only test for that file.
 
-### Pytest is not recognizing my function, what is the issue?
+**Q: Pytest is not recognizing my function, what is the issue?**
 
----
-
-I am following the naming convention that is listed in the programming assignment instructions. If it does not work, then make sure your function is following the naming
+A: I am following the naming convention that is listed in the programming assignment instructions. If it does not work, then make sure your function is following the naming
 convention that was given.
 
-### Why can I not run the pytest file from a different folder instead?
+**Q: Why can I not run the pytest file from a different folder instead?**
 
----
-
-While it is possible, the way that I wrote these pytest files with the thought that both would be inside the same folder. I wrote them this way to keep it as simple as possible
+A: While it is possible, the way that I wrote these pytest files with the thought that both would be inside the same folder. I wrote them this way to keep it as simple as possible
 since I am not sure how others would be structuring their folders for the programming assignments. If you do decide to change where the tests are going, make sure you edit the pytest
 file to import your programming assigment file correctly **on your local machine**. I will be keeping these files as intended, again with the most simple set up as possible.
 
-### The rubric for the PA got posted, will you be updating the testing files?
-
----
-
-No.
+**Q: The rubric for the PA got posted, will you be updating the testing files?**
+A: No.
 I intend to keep these test files with student thought test cases.
 
-### What do I do if I notice an issue with the pytest file?
+**Q: What do I do if I notice an issue with the pytest file?**
 
----
-
-Let me know!
+A: Let me know!
 I am still learning how to navigate with GitHub and as well as pull requests. So if you want to use that feature or use the Issues feature to submit an issue, then please go for it!
 You can also message me on discord as well. **I will be slow on responding as I have other priorities with my job, but I will get to those pull requests, issues, or messages as soon
 as I can!**
 
-### Can I provide some test ideas?
+**Q: Can I provide some test ideas?**
 
----
-
-Of course! I also intended to make this collaborative as possible. But please, do not feel that you need to help out. I simply just wanted to be helpful for everyone and create something
+A: Of course! I also intended to make this collaborative as possible. But please, do not feel that you need to help out. I simply just wanted to be helpful for everyone and create something
 that I felt we could all use.
