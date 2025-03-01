@@ -108,6 +108,7 @@ since I am not sure how others would be structuring their folders for the progra
 file to import your programming assigment file correctly **on your local machine**. I will be keeping these files as intended, again with the most simple set up as possible.
 
 **Q: The rubric for the PA got posted, will you be updating the testing files?**
+
 A: No.
 I intend to keep these test files with student thought test cases.
 
