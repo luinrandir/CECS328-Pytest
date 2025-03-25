@@ -11,6 +11,7 @@ from cecs328pa3 import *
         (["tdwwddt", "t", "dwww", "ddww", "wwww"], 3, 5, 4, 3),
         (["dwtd", "td", "td", "ddd", "www"], 2, 1, 1, 1),
         (["d", "t", "w", "wdw", "tdt"], 2, 1, 2, 3),
+        (["ddwwtt"], 1, 1, 1, 0),
         (["d"], 21, 22, 23, 1),
         (["d"], 1, 1, 1, 1),
         (
