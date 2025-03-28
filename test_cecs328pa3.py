@@ -1,10 +1,12 @@
-# Tests for PA3 - Crates
+# Tests for PA4 - Crates
 # Alex Gonzalez
 
 import pytest
+
 from cecs328pa3 import *
 
 
+# @pytest.mark.skip(reason="Currently working on the function")
 @pytest.mark.parametrize(
     "test_crates, test_toasters, test_washers, test_dryers, expected_result",
     [
@@ -12,6 +14,7 @@ from cecs328pa3 import *
         (["dwtd", "td", "td", "ddd", "www"], 2, 1, 1, 1),
         (["d", "t", "w", "wdw", "tdt"], 2, 1, 2, 3),
         (["ddwwtt"], 1, 1, 1, 0),
+        (["dd", "dd", "dd", "dwt", "dwt", "dwt", "dwt"], 4, 4, 4, 4),
         (["d"], 21, 22, 23, 1),
         (["d"], 1, 1, 1, 1),
         (
